@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FoodChow.API/FoodChow.API.csproj" />
+  <Project Path="FoodChow.Application/FoodChow.Application.csproj" />
+  <Project Path="FoodChow.Domain/FoodChow.Domain.csproj" />
+  <Project Path="FoodChow.Infrastructure/FoodChow.Infrastructure.csproj" />
+</Solution>
