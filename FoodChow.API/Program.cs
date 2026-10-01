@@ -338,6 +338,9 @@ app.UseAuthorization();
 // Map Controllers
 app.MapControllers();
 
+// Redirect root to Swagger UI for seamless browser access
+app.MapGet("/", () => Results.Redirect("/swagger/index.html"));
+
 app.Run();
 
 // Exposes Program for WebApplicationFactory<Program> in integration tests.
